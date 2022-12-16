@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="webdevpro.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="signn">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-md-4">
+                    <form role="form" method="post" class="form-container mb-3">
+                        <div class="row">
+                            <div class="login">
+                                <h3><span><b>SIGN UP</b></span></h3>
+                                <div class="form-group col-12">
+                                    <label class="control-label" for="firstName">First name<span
+                                            class="star">*</span>:</label>
+                                    <input id="firstName" type="text" name="form-firstname"
+                                        placeholder="Enter Your First Name" class="form-firstname form-control"
+                                        required>
+                                </div>
+                                <div class="form-group col-12"><label class="control-label" for="lastName">Last
+                                        name<span class="star">*</span>:
+                                    </label>
+                                    <input type="text" name="form-lastname" placeholder="Enter Your Last Name"
+                                        class="form-lastname form-control" required>
+                                </div>
+                                <div class="form-group col-12"><label class="control-label" for="email">Email<span
+                                            class="star">*</span>:
+                                    </label>
+                                    <input type="email" name="form-email" placeholder="Enter Your Email"
+                                        class="form-email form-control" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="control-label" for="phone">Phone<span class="star">*</span>:
+                                    </label>
+                                    <input type="tel" name="form-phone" placeholder="Enter Your Mobile Number"
+                                        class="form-phone form-control" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="control-label" for="password">Password<span class="star">*</span>:
+                                    </label>
+                                    <input type="password" name="form-password" placeholder="Enter The Password"
+                                        class="form-password form-control" required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="control-label" for="phone">Confirm Password<span
+                                            class="star">*</span>:
+                                    </label>
+                                    <input type="password" name="form-confirm-password"
+                                        placeholder="Re-type Your Password" class="form-confirm-password form-control"
+                                        required>
+                                </div>
+                                <div class="form-group col-12">
+                                    <button type="submit" class="btn btn-warning form-submit"
+                                        id="login_form_submit"><a href="index.html">Sign
+                                            Up</a></button>
+                                </div>
+                                <div class="text-center col-12">
+                                    <h6><a href="#" class="pwd">Forgot password?</a></h6>
+                                    <div class="form-group text-left " id="login_form_error" style="display: none;">
+                                        <span class="text-danger" id="spn_error"></span>
+                                    </div>
+                                </div>
+                                <div class="Bold">
+                                    <h6>
+                                        Sign in instead? <a href="login.html" class="bold"> Sign In</a><br>
+                                        <!-- Re-Generate OTP? <a href="#" class="bold"> Generate OTP</a> -->
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -13,9 +13,9 @@
 
 function enableSubmitButton() {
     var enable = false;
-    if ($("#fullname").val() != null & $("#fullname").val() != "" & nameValidation() == true
-    & $("#email").val() != null & $("#email").val() != "" & emailIdValidation() == true
-    & $("#phone").val() != null & $("#phone").val() != "" & phoneValidation() == true
+    if ($("#fullname").val() != null & $("#fullname").val() != "" & nameValidation() 
+    & $("#email").val() != null & $("#email").val() != "" & emailIdValidation() 
+    & $("#phone").val() != null & $("#phone").val() != "" & phoneValidation() 
     & $("#message").val() != null & $("#message").val() != "") {
         enable = true;
     }
